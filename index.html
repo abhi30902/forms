@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+    <form>
+        <label>Firstname</label>
+        <input type="text" >
+        <br><br>
+        <label>Middlename</label>
+        <input type="text">
+        <br><br>
+        <label>Lastname</label>
+        <input type="text">
+        <br><br>
+        <label>Course</label>
+        <select>
+            <option selected disabled value="">Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>MBA</option>
+            <option>MCA</option>
+            <option>M.Tech</option>
+        </select>
+        <br><br>
+        <label>Gender :</label>
+        <br><br>
+        <input type="radio" name="gen" value="m">Male<br>
+        <input type="radio" name="gen" value="f">Female<br>
+        <input type="radio" name="gen" value="o">Other<br>
+        <br>
+        <label>DOB</label>
+        <input type="datetime-local">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="text" placeholder="+91" id="phone" disabled required size="3" >
+        <input type="text" id="phone"  size="10">
+        <br><br>
+        <label for="address">Address</label><br>
+        <textarea id="address" rows="6" cols=90"></textarea>
+        <br><br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" >
+        <br><br>
+        <label for="password" >Password:</label>
+        <input type="password" id="password" >
+        <br><br>
+        <label for="re-password">Re-type password:</label>
+        <input id="re-password" type="password">
+        <br><br>
+        <input type="checkbox">
+        <label>Agree to terms and conditions</label>
+        <br><br>
+        <label>Choose File</label>
+        <input type="file">
+        <br><br>
+        <label>Choose Color</label>
+        <input type="color">
+        <br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+    </form>
+</fieldset>
+</body>
+</html>
